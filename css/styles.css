@@ -1,0 +1,180 @@
+*{box-sizing: border-box;}
+#side ul{
+    list-style: none;
+    margin-top:30%;
+}
+.bg-gray{
+    background-color: rgb(241, 236, 236);
+}
+#side ul li a{
+    color:gray;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+#list-btn{
+    position: absolute;
+    right: 0;
+}
+#list-btn ul{
+    list-style: none;
+   
+    
+}
+#list-btn ul li a{
+    color:gray;
+    text-decoration: none;
+}
+
+  .label-date{
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px ;
+    padding: 10px;
+    
+}
+.search input{
+    position:relative;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius:  20px  20px ;
+    padding: 10px;
+    text-align:center;
+    color:gray;
+    
+}
+.search .btn-red{
+    position:absolute;
+    top:31;
+    right: 15;
+    width:30px;
+    height:35px;
+    background-color: red;
+    border-radius: 10px;
+}
+.btn-ring{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 100%;
+}
+.btn-email{
+    width: 65px;
+    height: 65px;
+    background-color: red;
+    border-radius: 100%;
+}
+.btn-avatar{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 100%;
+}
+.btn-avatar img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border:2px solid gray;
+}
+#list-btn ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#list-btn ul li a{
+    display: flex;
+    flex-direction: row;
+}
+#list-btn{
+    margin-top:20px;
+}
+#print ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#print ul li a{
+    display: flex;
+    flex-direction: row;
+}
+#print .btn-print{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color:  white;
+}
+
+#print .btn-edit{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color:  white;
+}
+.media {
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 22rem;
+    border-radius: 20px;
+}
+.media img{
+    justify-content: flex-end;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+   
+}
+.btn-media{
+    width: fit-content;
+    background-color: red;
+    padding: 0.75rem 1rem;
+    color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    
+}
+.btn-media:hover{
+    text-decoration: none;
+    color: white;
+}
+.media .left-half,
+.media .right-half{
+    flex-direction: row;
+   
+}
+table {
+    margin-left: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+   
+    
+}
+.media-2{
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 22rem;
+    border-radius: 20px;
+}
+.media-3{
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 22rem;
+    border-radius: 20px;
+}
+.paragrah {
+    background-color: rgb(173, 168, 168);
+    font-size:12px;
+    width:200px;
+ 
+    margin:10px auto;
+    border-radius: 10px;
+}
+
+
+
+
