@@ -12,10 +12,10 @@
     font-size: 0.75rem;
     font-weight: bold;
 }
-#list-btn{
+/* #list-btn{
     position: absolute;
     right: 0;
-}
+} */
 #list-btn ul{
     list-style: none;
    
@@ -27,7 +27,7 @@
 }
 
   .label-date{
-    width: 160px;
+    width: 200px;
     height: 50px;
     background-color: white;
     border-radius: 20px ;
