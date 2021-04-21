@@ -9,24 +9,37 @@
             display: block;
             margin:10px;
         }
-        .l-heading {
-            font-size: 2.5rem;
-            line-height: 1.2rem
+        #side ul li a:active
+        , #side div a:active{
+            color: red;
         }
-        
-        .lead {
-            font-size: 1rem;
-            line-height: 1.2rem
+        .paragraph{
+            width: 80%;
         }
-        
-        #navbar {
-            flex-direction: column;
-            padding-bottom: 1.5rem;
+       
+        .media {
+            width: 100%;
+            margin: 20px 10px;
+            height: fit-content;
+            overflow-y:hidden;
         }
+        .media .media-l .btn-media,
+        .media .media-r .btn-media{
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .media .media-l ,
+        .media .media-r {
         
-        #navbar .logo {
-            flex-direction: column;
-            margin-bottom: 1rem;
+            margin: 20px 0;
+        }
+        .media .media-l{
+            border-right: 2px inset rgb(226, 223, 223);
+        }
+        .media-2{
+            margin: 20px 10px;
+        
         }
         /*---section about--*/
         

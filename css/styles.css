@@ -114,10 +114,18 @@
 }
 .media {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
     height: 22rem;
     border-radius: 20px;
+}
+.media .media-l{
+    border-right: 2px inset rgb(226, 223, 223);
+   
+}
+.media .media-l,
+.media .media-r{
+    flex:1;
 }
 .media img{
     justify-content: flex-end;
@@ -127,10 +135,11 @@
 
    
 }
-.btn-media{
-    width: fit-content;
+.media .media-l .btn-media,
+.media .media-r .btn-media{
+    /* width: fit-content; */
     background-color: red;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.75rem;
     color: white;
     border-radius: 6px;
     margin-left: 20px;
@@ -143,6 +152,7 @@
 .media .left-half,
 .media .right-half{
     flex-direction: row;
+    
    
 }
 table {
@@ -169,8 +179,8 @@ table {
 .paragrah {
     background-color: rgb(173, 168, 168);
     font-size:12px;
-    width:200px;
- 
+    width:80%;
+    overflow: hidden;
     margin:10px auto;
     border-radius: 10px;
 }
