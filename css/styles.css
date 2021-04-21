@@ -117,21 +117,29 @@
     flex-direction: row;
     overflow: hidden;
     height: 22rem;
+    width: 100%;
     border-radius: 20px;
 }
 .media .media-l{
+    
     border-right: 2px inset rgb(226, 223, 223);
    
+}
+.media .media-r{
+    justify-content: flex-end;
+    float:right;
+
 }
 .media .media-l,
 .media .media-r{
     flex:1;
 }
-.media img{
-    justify-content: flex-end;
+.media img {
+    /* justify-content: flex-end; */
     width: 80px;
     height: 80px;
     border-radius: 100%;
+    margin: 5px 40%;
 
    
 }
@@ -139,7 +147,7 @@
 .media .media-r .btn-media{
     /* width: fit-content; */
     background-color: red;
-    padding: 0.5rem 0.75rem;
+    /* padding: 0.5rem 0.75rem; */
     color: white;
     border-radius: 6px;
     margin-left: 20px;
@@ -149,12 +157,12 @@
     text-decoration: none;
     color: white;
 }
-.media .left-half,
+/* .media .left-half,
 .media .right-half{
     flex-direction: row;
     
    
-}
+} */
 table {
     margin-left: 2.5rem;
     font-size: 3rem;
@@ -175,6 +183,7 @@ table {
     overflow: hidden;
     height: 22rem;
     border-radius: 20px;
+    margin-right: 10px;
 }
 .paragrah {
     background-color: rgb(173, 168, 168);

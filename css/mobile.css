@@ -16,6 +16,11 @@
         .paragraph{
             width: 80%;
         }
+        #list-btn ul li a{
+            text-align: center;
+           
+            
+        }
        
         .media {
             width: 100%;
@@ -27,23 +32,27 @@
         .media .media-r .btn-media{
             display: block;
             text-align: center;
-            margin: 20px 0;
+            margin: 20px 20px;
         }
         .media .media-l ,
         .media .media-r {
-        
+            justify-items: center;
             margin: 20px 0;
         }
         .media .media-l{
             border-right: 2px inset rgb(226, 223, 223);
         }
         .media-2{
-            margin: 20px 10px;
+            margin: 10px 0 20px 0;
+        
+        }
+        .media-3{
+            margin: 10px 0 20px 0;
         
         }
         /*---section about--*/
         
-        #about .about-content {
+        /* #about .about-content {
             display: block;
             text-align: center;
         }
@@ -54,27 +63,27 @@
         }
         /**** Programs */
         
-        #programs .boxes {
+        /* #programs .boxes {
             display: block;
-        }
+        } */
         /**** trainers */
         
-        #trainer .trainers-boxes {
+        /* #trainer .trainers-boxes {
             display: block;
-        }
-        #trainers .trainers-boxes {
+        } */
+        /* #trainers .trainers-boxes {
             display: block;
-        }
+        } */
         /**** contact */
         
-        #contact {
+        /* #contact {
             flex-direction: column;
             height: 1100px;
         }
-        
-        #contact .contact-us .form-group {
+         */
+        /* #contact .contact-us .form-group {
             display: block;
-        }
+        }  */
         
         @media(max-width: 500px) {
             #navbar {
@@ -101,3 +110,15 @@
                 min-height: 400px;
             }
         }
+        /* @media(min-width:1010px){
+            .media{
+                display: flex;
+                flex-direction: column;
+            }
+            .media .media-r .btn-media,
+            .media .media-l .btn-media{
+                width: 50%;
+                overflow: hidden;
+               
+            }
+        } */
