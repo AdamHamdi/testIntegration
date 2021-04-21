@@ -12,6 +12,8 @@
         #side ul li a:active
         , #side div a:active{
             color: red;
+            text-decoration: none;
+            background-color: white;
         }
         .paragraph{
             width: 80%;
