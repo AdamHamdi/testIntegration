@@ -1,126 +1,99 @@
-        /*Navbar */
+    
         
-        .search input{
-            
-            width: 100%;
-           
-        }
-        #side ul{
-            display: block;
-            margin:10px;
-        }
-        #side ul li a:active
-        , #side div a:active{
-            color: red;
-            text-decoration: none;
-            background-color: white;
-        }
-        .paragraph{
-            width: 80%;
-        }
-        #list-btn ul li a{
-            text-align: center;
-           
-            
-        }
-       
-        .media {
-            width: 100%;
-            margin: 20px 10px;
-            height: fit-content;
-            overflow-y:hidden;
-        }
-        .media .media-l .btn-media,
-        .media .media-r .btn-media{
-            display: block;
-            text-align: center;
-            margin: 20px 20px;
-        }
-        .media .media-l ,
-        .media .media-r {
-            justify-items: center;
-            margin: 20px 0;
-        }
-        .media .media-l{
-            border-right: 2px inset rgb(226, 223, 223);
-        }
-        .media-2{
-            margin: 10px 0 20px 0;
-        
-        }
-        .media-3{
-            margin: 10px 0 20px 0;
-        
-        }
-        /*---section about--*/
-        
-        /* #about .about-content {
-            display: block;
-            text-align: center;
-        }
-        
-        #about .about-content img {
-            width: 100%;
-            margin: 1rem 0 0 0;
-        }
-        /**** Programs */
-        
-        /* #programs .boxes {
-            display: block;
-        } */
-        /**** trainers */
-        
-        /* #trainer .trainers-boxes {
-            display: block;
-        } */
-        /* #trainers .trainers-boxes {
-            display: block;
-        } */
-        /**** contact */
-        
-        /* #contact {
-            flex-direction: column;
-            height: 1100px;
-        }
-         */
-        /* #contact .contact-us .form-group {
-            display: block;
-        }  */
-        
-        @media(max-width: 500px) {
-            #navbar {
-                position: static;
-            }
-            #navbar ul {
-                display: block;
-                text-align: center;
-            }
-            #navbar ul li {
-                padding: 1rem;
-            }
-        }
-        
-        @media (min-height: 653px) {
-            .l-heading {
-                font-size: 2rem;
-            }
-            .m-heading {
-                font-size: 1.75rem;
-                line-height: 1.2;
-            }
-            #cta .cta-content {
-                min-height: 400px;
-            }
-        }
-        /* @media(min-width:1010px){
-            .media{
-                display: flex;
-                flex-direction: column;
-            }
-            .media .media-r .btn-media,
-            .media .media-l .btn-media{
-                width: 50%;
-                overflow: hidden;
-               
-            }
-        } */
+.search input{
+    margin:0 5px;
+    width: 100%;
+   
+}
+#side ul{
+    display: block;
+    margin:20px;
+}
+#side ul li a:active
+, #side div a:active{
+    color: red;
+    text-decoration: none;
+    background-color: white;
+}
+#side ul li div a{
+    display: block;
+    margin-left: 2rem;
+}
+.paragraph{
+    width: 80%;
+    overflow: scroll;
+}
+#list-btn ul li a{
+    text-align: center;
+   
+    
+}
+
+.media {
+    width: 90%;
+    margin: 20px 10px;
+    height: fit-content;
+    overflow-y:hidden;
+}
+.media .media-l .btn-media,
+.media .media-r .btn-media{
+    display: block;
+    text-align: center;
+    margin: 10px 10px 20px 20px;
+}
+.media .media-l ,
+.media .media-r {
+    justify-items: center;
+    margin: 20px 0;
+}
+.media .media-l{
+    border-right: 2px inset rgb(226, 223, 223);
+}
+.media-2{
+    margin: 10px 10px 20px 20px;
+
+}
+.media-3{
+    margin: 10px 10px 20px 20px;
+
+}
+.media-cmpt{
+    height: 22rem;
+    margin: 10px 0 20px 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px  0 20px 20px ;
+}
+nav div .navbar-nav a{
+   width: 100%;
+}
+.btn-compte {
+    width:90% ;
+    margin-right: auto;
+}
+.bg-nav{
+    margin-right: 20px;
+    width: 100%;
+}
+.compte_rendu{
+    width: 90%;
+    margin: 20px 10px;
+    height: fit-content;
+    overflow-y:hidden;
+}
+#compte-rendu{
+    background-color: rgb(241, 236, 236);
+    height:200px;
+    width: 80%;
+    overflow: scroll;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    
+} 
