@@ -380,7 +380,7 @@
     overflow: hidden;
     height: 24rem;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px ;
 }
  .compte-rendu a{
     text-decoration: none;
@@ -390,11 +390,11 @@
   #compte-rendu{
     background-color: rgb(241, 236, 236);
     height:200px;
-    /* width: 80%; */
+    width: 100%;
     overflow: scroll;
     border-radius: 20px;
-    padding: 10px;
-    margin: 20px auto;
+    padding: 15px 70px;
+    margin:10px  10px ;
     
 } 
 .text-small{
@@ -404,15 +404,15 @@
 a{text-decoration:none;}
 table{
     border-radius:20px;
-    margin: 20px auto;
-    width: 300px;
+    margin: 10px auto;
+    width: 200px;
     border:none;
     background-color: white;
-    box-shadow: 1px 1px 15px #888888;
+    box-shadow: 1px 1px 20px #888888;
 }
 td{
     
-    height: 50px;
+    height: 30px;
     border-radius:20px;
 }
  .td{
@@ -484,9 +484,18 @@ nav{
    
 }
 .btn-compte{
-   padding:20px;
-    margin:20px 5px 20px 20px;
+    
+    width: fit-content;
+    background-color: red;
+    padding: 0.5rem 0.75rem;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
 
+}
+.btn-compte:hover{
+    text-decoration: none;
+    color: white;
 }
 
 #side nav div ul{
