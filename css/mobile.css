@@ -74,8 +74,8 @@ nav div .navbar-nav a{
    width: 100%;
 }
 .btn-compte {
-    width:90% ;
-    margin-right: auto;
+    width:100% ;
+    margin: 20px auto;
 }
 .bg-nav{
     margin-right: 20px;

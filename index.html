@@ -18,28 +18,40 @@
 </head>
 
 <body>
-    
+    <div class="container-fluid">
         <div class="row">
             <div id="side" class="col-md-2">
-                
-                <a href="" class=" mt-4 ml-5"><img src="./img/logo.PNG" alt=""></a>
-                
-                <ul>
-                    <li> </li>
-                    <li><a></a> </li>
-                    <li><a href=""> <img src="./img/table.PNG" alt="">Tableau de bord</a> </li>
-
-                    <li><a href="" data-toggle="collapse" data-target="#collapseExample"  aria-expanded="false" aria-controls="collapseExample"><img src="./img/documents.PNG" alt="">Documents</a>
-                        <div class="collapse" id="collapseExample">
-                            <a class="" href="">Administratifs</a>
-                            <a class="" href="">Techniques</a>
-                            <a class="" href="">Commerciaux</a>
-
+                <nav class="  navbar-expand-lg  navbar-light bg-white">
+                    <a href="" class=" logo "><img src="./img/logo.PNG" alt=""></a>
+                    <button class="navbar-toggler  float-right mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active ">
+                          <a class="" href="#"><img src="./img/table.PNG" alt="">Tableau de bord <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseExample"  aria-expanded="false" aria-controls="collapseExample"><img src="./img/documents.PNG" alt="">Documents</a>
+                          <div class="collapse ml-5" id="collapseExample">
+                            <a class="nav-link" href="">Administratifs</a>
+                            <a class="nav-link" href="">Techniques</a>
+                            <a class="nav-link" href="">Commerciaux</a>
                         </div>
-                    </li>
-                    <li><a href="" class="text-danger"><img src="./img/client.PNG" alt="">Clients</a> </li>
-                    <li><a href=""><img src="./img/annexe.PNG" alt="">Annexes</a> </li>
-                </ul>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href=""> <img src="./img/client.PNG" alt=""> Clients</a>
+    
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#"><img src="./img/annexe.PNG" alt="">Annexes</a>
+                        </li>
+                      </ul>
+                     
+                    </div>
+                  </nav>
+              
                   
             </div>
             <div id="content" class="col-md-10 bg-light ">
@@ -112,7 +124,7 @@
                                         <img class=" mt-2 " src="./img/man.jpg" alt="Generic placeholder image">
                                         <div class="media-body mt-2">
                                             <h6 class="font-weight-bold text-center">Bernard DAVID</h6>
-                                            <p class="font-weight-bold text-secondary text-center">
+                                            <p class="font-weight-bold text-small text-secondary text-center">
                                                 bernard_david@gmail.com</p>
                                             <p class="text-center mt-1">Lorem, ipsum dolor.</p>
                                             <div>
@@ -131,7 +143,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 media-r ml-4 ">
+                                <div class="col-md-6 media-r  ">
                                     <div class="left-half d-flex ">
                                         <div class="row w-100">
                                             <div class="col-md-6">
@@ -202,11 +214,11 @@
 
                             </div>
                             <div class="float-right ">
-                                <p class="p-2 ml-4  ">Note 1</p>
+                                <p class=" ml-4  ">Note 1</p>
                             </div>
-                            <div class=" comment d-flex">
+                            <div class=" comment d-inline-flex">
                                 <p class=" ml-4  "><img src="./img/client.PNG" alt=""> Lorem, ipsum dolor.</p>
-                                <span class="text-secondary mr-4 ">12 Nov 2020</span>
+                                <p class="text-secondary font-weight-bold text-small mr-3 ">12 Nov 2020</p>
                             </div>
                         </div>
                     </div>
@@ -260,7 +272,7 @@
                     <div class="col-md-9   ">
                         <div class=" compte_rendu bg-white">
                             <div class="row  w-100">
-                                <div class="col-md-4 col-sm-12 ">
+                                <div class="col-md-6 col-sm-12 ">
                                     <div class="bg-nav ">
                                         <ul class=" nav bg-light">
                                             <li class="nav-item active"><a href="" class="nav-link">Réunions</a></li>
@@ -269,8 +281,8 @@
                                         </ul>
                                      </div>
                                 </div>
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4 col-sm-12 d-flex">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-4 col-xs-12 d-flex">
                                     <div class=" ml-auto    mb-4  mt-4 ">
                                         <a href="" class="text-white btn btn-compte btn-danger ml-4 ">Ajouter compte rendu</a>
                                     </div>
@@ -404,6 +416,7 @@
                 </div>
             </div>
     </div>
+</div>
 
     <!-- Optional JavaScript -->
     
